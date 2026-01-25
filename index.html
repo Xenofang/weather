@@ -1,0 +1,33 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Weather App</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container">
+          <div class="heading"><h1>Weather App</h1></div>
+          <form action="#" id="weatherForm">
+            <div>
+              <input id="city" type="text" placeholder="Enter a city" required>
+              <button type ="submit" id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+              <div class="info">
+                <h1 id="error"></h1>
+                <h1 id="temp"></h1>   
+                <h2 id="location"></h2>
+                <div id="info">
+                  <h3 id="humid"></h3>
+                  <h3 id="sky"></h3>
+                  <h3 id="wind"></h3>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+      
+      <script src="script.js"></script>
+    </body>
+  </html>
