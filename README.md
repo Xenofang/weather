@@ -41,9 +41,7 @@ Weather-App/
 ## ⚙️ How to Run the Project
 
 ### Method 1: Open Directly
-1. Download or clone the repository
-2. Open `index.html`
-3. Run it in any browser
+Click on this  Link :https://xenofang.github.io/weather/
 
 ### Method 2: Using VS Code
 1. Open the project folder in VS Code
